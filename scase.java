@@ -4,7 +4,9 @@ public class scase {
 	static int amt=20000;
     public static void main(String[] args)
     {
-         
+    	int abc;
+    	
+         do {
     	System.out.println("Enter 1 to credit:");
     	System.out.println("Enter 2 to Debit: ");
     	System.out.println("Enter 3 to Display:");
@@ -48,8 +50,12 @@ public class scase {
     		System.out.println("OOPS INVALID CHOICE:");
     	}
     	}
+    	System.out.println("Enter 1 to continue.......");
+    	   abc=sc.nextInt();
+  
+         }while(abc==1);
     	
     	
-    }
+         }
+         }
     
-}
